@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+.store{
+    background-color: #e4e0e0;
+}
+span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.top-menu{
+    margin-right: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+.top{
+    color: #0c0101;
+    text-decoration: none;
+    padding:  0px 15px;
+    position: relative;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.top:hover{
+    text-decoration: underline;
+}
+/* .top::after{
+    
+    height: 15px;
+    width: 2px;
+    position: absolute;
+    top: 25%;
+    right: 3px;
+    background-color: rgb(255, 25, 25);
+} */
+.header{
+    background-image: url('./Apex-photo/apex-cover.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    height: 250px;
+}
+.secondary-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondary-menu:hover{
+    background-color: white;
+}
+.menu-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.log{
+    height: 55px;
+    margin: 15px;
+    margin-left: 55px;
+}
+.mt{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.mt:hover{
+    text-decoration: underline;
+}
+.menu-icons{
+    margin-right: 220px;
+}
+
+.icon{
+    color: white;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.secondary-menu:hover .mt{
+    color: black;
+}
+.secondary-menu:hover .icon{
+    color: black;
+}
+.tag-line{
+    text-align: center;
+    margin-top: 50px;
+}
+.tag{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.btn-out{
+    background-color: transparent;
+    color: white;
+    border:  1px solid white;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 125px;
+}
+.btn-out:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #0a0000;
+}
